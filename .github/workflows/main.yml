@@ -17,3 +17,4 @@ jobs:
     # Use the output from the `hello` step
     - name: 获取输出时间
       run: echo "时间是 ${{ steps.hello123.outputs.time }}"
+      
